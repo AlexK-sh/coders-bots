@@ -3,4 +3,5 @@
 Creado para coders
 
 ```
-(Servidor de Soporte)[https://discord.gg/KrzQR5Ak66]
+[Servidor de Soporte](https://discord.gg/KrzQR5Ak66)
+
