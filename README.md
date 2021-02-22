@@ -7,8 +7,7 @@
 
 ## Clone
 ```
-git clone https://github.com/
-cd 
+git clone https://github.com/kredoF/coders-bots
 npm install
 ```
 
