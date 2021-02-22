@@ -1,0 +1,30 @@
+ADMINISTRATOR (implícitamente tiene todos los permisos y omite todas las sobrescrituras de canales)
+CREATE_INSTANT_INVITE (crea invitaciones al servidor)
+KICK_MEMBERS
+BAN_MEMBERS
+MANAGE_CHANNELS (editar y reordenar canales)
+MANAGE_GUILD (edita la información del servidor, la región, etc.)
+ADD_REACTIONS (agregar nuevas reacciones a los mensajes)
+VIEW_AUDIT_LOG
+PRIORITY_SPEAKER
+STREAM
+VIEW_CHANNEL
+SEND_MESSAGES
+SEND_TTS_MESSAGES
+MANAGE_MESSAGES (eliminar mensajes y reacciones)
+EMBED_LINKS (los enlaces publicados tendrán una vista previa incrustada)
+ATTACH_FILES
+READ_MESSAGE_HISTORY (ver los mensajes publicados antes de abrir Discord)
+MENTION_EVERYONE
+USE_EXTERNAL_EMOJIS (usa emojis de diferentes servidores)
+CONNECT (conectarse a un canal de voz)
+SPEAK (hablar en un canal de voz)
+MUTE_MEMBERS (silenciar miembros en todos los canales de voz)
+DEAFEN_MEMBERS (miembros sordos en todos los canales de voz)
+MOVE_MEMBERS (mover miembros entre canales de voz)
+USE_VAD (usar detección de actividad de voz)
+CHANGE_NICKNAME
+MANAGE_NICKNAMES (cambiar los apodos de otros miembros)
+MANAGE_ROLES
+MANAGE_WEBHOOKS
+MANAGE_EMOJIS
