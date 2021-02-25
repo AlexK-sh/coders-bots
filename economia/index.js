@@ -41,4 +41,4 @@ if(cmd){
 })
 
 
-client.login("ODEyNzQ4ODQwMjk3NTYyMTUz.YDFRVw.2iUVADFqLTVj1ukG_r6_BG2acwE")
+client.login("tu token")
