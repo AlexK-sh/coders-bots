@@ -7,7 +7,7 @@ module.exports = {
 
 execute(client, message, args){
 
-if(message.author.id=== '767574942350311465' ){
+if(message.author.id=== 'tu id' ){
 
   var estadoperso = message.content.split(' ').slice(1).join(' ');
   if(!estadoperso){
