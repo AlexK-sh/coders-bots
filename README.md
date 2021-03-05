@@ -10,6 +10,7 @@
 ## Clone
 ```
 git clone https://github.com/kredoF/coders-bots
+cd coders-bots
 npm install
 ```
 
