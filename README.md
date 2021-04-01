@@ -3,11 +3,11 @@
 
 > Creado para coders
 
-> Nuevo Sistema de Economia!
+> Nuevo Sistema de Handler Command/events
 
->Guia basada en discord.js Y JavaScript
+>Guia basada en lenguajes como `discord.js` Y `JavaScript`
 
-## Clone
+## Clone Rep
 ```
 git clone https://github.com/kredoF/coders-bots
 cd coders-bots
@@ -23,10 +23,6 @@ Una comunada dispuesta a ayudar a todos en aprender sobre Discord.js
 
 Todo el contenido del repositorio esta explicado en el canal
 
-
-
-#### Replit
-[![Repl.it](https://repl.it/badge/github/kredoF/coders-bots)](https://repl.it/github/kredoF/coders-bots)
 
 ```js
 //colores para la consola:
