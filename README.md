@@ -5,7 +5,7 @@
 
 > Nuevo Sistema de Economia!
 
->Guia basada en discord.js Y JavaScript
+>Guia basada en discord.js Y Node.js
 
 ## Clone
 ```
