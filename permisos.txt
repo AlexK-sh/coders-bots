@@ -24,7 +24,7 @@ DEAFEN_MEMBERS (miembros sordos en todos los canales de voz)
 MOVE_MEMBERS (mover miembros entre canales de voz)
 USE_VAD (usar detección de actividad de voz)
 CHANGE_NICKNAME
-MANAGE_NICKNAMES (cambiar los apodos de otros miembros)
+MANAGE_NICKNAMES (cambiar los apodos de otros Usuarios)
 MANAGE_ROLES
 MANAGE_WEBHOOKS
 MANAGE_EMOJIS
