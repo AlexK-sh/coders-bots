@@ -20,7 +20,7 @@ async execute(message, args , prefix, client){
     //estructura tu comando aqui
 
 },
-},
+};
 
 //////
 
