@@ -4,8 +4,13 @@ const { Client, MessageEmbed, Collection, Guild } = require("discord.js")
 
 const fs = require("fs");
 const { readdirSync } = require("fs");
+/*
+paara poder hacer el prefix por servidor nesesitamos comentar o eliminar nuestra variable perfix
 var prefix = "!" ///puedes cambiar tu prefix
-
+*/
+//tambien nesesitaremos la database con los datos del prefix
+const megadb = require("megadb")
+let db_prefixes = new megadb.creatDB("prefixes")
 
 client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./comandos').filter(file => file.endsWith('.js'))
@@ -24,6 +29,10 @@ for (const file of readdirSync('./comandos/util/')){
 
 ///evento message con algunas caracteristicas
 client.on('message', async (message) => {
+  //definimos nuestro nuevo pefix aqui
+  
+  let prefix = db_prefixes.has(message.guild.id) ? await db_prefixes.get(message.guild.id) : "<tu prefix aqui>";//lo que esta dentro de las comillas es el prefixque tiene el bot por default
+  
 //si el mensaje no empieza con el [prefix] retorna
 if(!message.content.startsWith(prefix)) return;
 
