@@ -25,8 +25,7 @@ Todo el contenido del repositorio esta explicado en el canal
 
 
 
-#### Replit
-[![Repl.it](https://repl.it/badge/github/kredoF/coders-bots)](https://repl.it/github/kredoF/coders-bots)
+
 
 ```js
 //colores para la consola:
