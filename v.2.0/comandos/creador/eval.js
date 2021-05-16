@@ -1,4 +1,6 @@
 const Discord = require("discord.js")
+// nesesario instalar 
+//> npm i beautify
 
 module.exports = {
 name:"eval",//nombre de tu comando
