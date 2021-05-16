@@ -7,6 +7,10 @@ client.commands = new Discord.Collection();
 const fs = require('fs');
 const { readdirSync } = require("fs");
 
+const mega = require("megadb");
+//llammamos a la db
+let prefixdb = new mega.crearDB("Prefixes");
+
 //requiriendo a la carpeta comandos y todas las subcarpetas pd: no poner comandos directamente en la capeta comandos
 const commandFolders = fs.readdirSync("./comandos");
 for (const folder of commandFolders) {
@@ -28,9 +32,11 @@ for (const file of eventFiles) {
   }
 }
 
-let prefix = "!"
 
 client.on("message", async message => {
+  //definimos prefix aqui
+  var prefix  =prefixdb.has(message.guild.id) ? await prefixdb.get(message.guild.id) : "!"//por ultimo el prefix por defecto
+  
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
   
