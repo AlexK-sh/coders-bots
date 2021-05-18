@@ -8,11 +8,14 @@
 
 Hola Coder, este repositorio esta creado para que vayas aprendiendo a crear un bot con el npm `discord.js` atraves de Nodejs 
 
-Primero que nada existe un archivo que se llama .env.example cambia el nombre y que tiene que estar haci .env
+Primero que nada existe un archivo que se llama `config.json` dentro de el tendras que poner algnos datos nesarios para poder encender el bot
 
-En el archivo esta eso pon tu token quita `<token>` y pon el token de tu bot 
-```txt
-TOKEN=<token>
+```json
+{
+    "default_prefix":"!",//el prefix que viene por default en todos los server con tu bot
+    "owners":["ids","ids"],//puedes poner 1 o varias ids esto servira el los comando con Onlycreator: true
+    "token":"your token"//aqui pon el token de tu bot
+}
 ```
 
 Despues usa `npm i` para instalar todos los packages

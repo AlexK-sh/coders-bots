@@ -6,6 +6,7 @@ client.commands = new Discord.Collection();
 
 const fs = require('fs');
 const { readdirSync } = require("fs");
+const config = require("./config.json")
 
 const mega = require("megadb");
 //llammamos a la db
@@ -35,8 +36,8 @@ for (const file of eventFiles) {
 
 client.on("message", async message => {
   //definimos prefix aqui
-  var prefix  =prefixdb.has(message.guild.id) ? await prefixdb.get(message.guild.id) : "!"//por ultimo el prefix por defecto
-  
+  var prefix  =prefixdb.has(message.guild.id) ? await prefixdb.get(message.guild.id) : `${config.default_prefix}`
+
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
   
@@ -58,7 +59,7 @@ if (command.guildOnly && message.channel.type === 'dm') {
 }//fin
 
 //onlycreator
-if (command.onlycreator && message.author.id !== "TU id") {
+if (command.onlycreator && message.author.id !== `${config.owners}`) {
 return message.lineReply('Solo mi creador puede ejecutar esto');
 }//fin
 
@@ -118,4 +119,4 @@ if (command.args && !args.length) {
 
 })
 
-client.login(process.env.TOKEN);
+client.login(config.token);

@@ -21,7 +21,7 @@ async execute(message, args , prefix, client){
 let New_prefix = args[0];
 
 
-message.channel.send("Cambiando prefix...").then(m => {
+message.channel.send("Cambiando prefix...").then(async m => {
 
 await prefixdb.set(message.guild.id, New_prefix).catch((e) => {
 
