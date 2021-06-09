@@ -111,7 +111,7 @@ if (command.args && !args.length) {
   setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
 
   try {
-    command.execute(message, args, prefix, client, ver);
+    command.execute(message, args, prefix, client);
   } catch (error) {
     console.error(error);
     message.lineReply(`\`\`\`prolog\n❌ | Ha Ocurrido Un Error Mientras Se Ejecutaba El Comando\n  si el problema persiste usa '${prefix}bug-report'\`\`\``);
