@@ -9,7 +9,7 @@
 
 ## Clone
 ```
-git clone https://github.com/kredoF/coders-bots
+git clone --branch ver-0.2 https://github.com/kredoF/coders-bots
 cd coders-bots
 npm install
 ```
