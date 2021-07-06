@@ -1,5 +1,5 @@
 #**Base Command Handler**
-
+```js
 const Discord = require("discord.js")
 
 module.exports = {
@@ -21,18 +21,19 @@ async execute(message, args , prefix, client){
 
 },
 };
-
+```
 //////
 
 #**Base Event Handler**
-
+```js
 const Discord = require('discord.js');
 
 module.exports = {
 	name: ' ',//nombre del evento
-async execute(message, client, prefix) { 
+async execute(parametro1, parametro2, client) { 
 
    //estructuracion
 
 }
 }
+```
