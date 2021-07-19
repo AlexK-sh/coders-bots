@@ -10,11 +10,11 @@ Hola Coder, este repositorio esta creado para que vayas aprendiendo a crear un b
 
 Primero que nada existe un archivo que se llama `config.json` dentro de el tendras que poner algnos datos nesarios para poder encender el bot
 
-```json
+```hjson
 {
-    "default_prefix":"!",//el prefix que viene por default en todos los server con tu bot
-    "owners":["ids","ids"],//puedes poner 1 o varias ids esto servira el los comando con Onlycreator: true
-    "token":"your token"//aqui pon el token de tu bot
+    "default_prefix":"!",   //el prefix que viene por default en todos los server con tu bot
+    "owners":["ids","ids"],  //puedes poner 1 o varias ids esto servira el los comando con Onlycreator: true
+    "token":"your token"  //aqui pon el token de tu bot
 }
 ```
 
